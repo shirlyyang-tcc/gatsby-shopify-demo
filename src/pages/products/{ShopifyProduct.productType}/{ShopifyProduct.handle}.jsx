@@ -225,6 +225,7 @@ export const Head = ({ data: { product } }) => {
           image={getSrc(firstImage?.image.gatsbyImageData)}
         />
       ) : undefined}
+      
     </>
   )
 }
